@@ -35,5 +35,11 @@ console.log(lengths);
 const firstCharacter = friends.map(friend => friend[0]);
 console.log(firstCharacter);
 
+const fruits = ['mango','banana', 'orange', 'apple'];
+
+const fruitsName = fruits.map((name, index, arr) => {
+    console.log(name, index, arr);
+})
+
 
 
